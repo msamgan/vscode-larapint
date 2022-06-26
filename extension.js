@@ -14,7 +14,7 @@ const PINT_BINARY = "vendor/bin/pint"
  * @param {vscode.ExtensionContext} context
  */
 function activate(context) {
-    let disposable = vscode.commands.registerCommand("vscode-larapint.format", async () => {
+    let disposable = vscode.commands.registerCommand("laravel-pint-vscode.format", async () => {
         const projectDirectory = vscode.workspace.workspaceFolders[0].uri.path
         let binaryExist = fs.existsSync(path.join(projectDirectory, PINT_BINARY))
 

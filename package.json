@@ -1,9 +1,9 @@
 {
-    "name": "vscode-larapint",
-    "displayName": "vscode-larapint",
+    "name": "laravel-pint-vscode",
+    "displayName": "Laravel Pint Formatter",
     "description": "vscode extension for laravel pint",
     "publisher": "msamgan",
-    "version": "0.0.1",
+    "version": "0.0.5",
     "icon": "larapint-icon.png",
     "engines": {
         "vscode": "^1.68.0"
@@ -32,13 +32,13 @@
         "url": "https://github.com/msamgan/vscode-larapint"
     },
     "activationEvents": [
-        "onCommand:vscode-larapint.format"
+        "onCommand:laravel-pint-vscode.format"
     ],
     "main": "./extension.js",
     "contributes": {
         "commands": [
             {
-                "command": "vscode-larapint.format",
+                "command": "laravel-pint-vscode.format",
                 "title": "Format with laravel pint"
             }
         ]
