@@ -9,7 +9,8 @@
         "vscode": "^1.68.0"
     },
     "categories": [
-        "Other"
+        "Linters",
+        "Formatters"
     ],
     "keywords": [
         "php",
