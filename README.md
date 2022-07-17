@@ -30,4 +30,6 @@ This will **format the entire project** with the set configurations you provided
 
 This will **format the current open file** with the set configurations you provided.
 
+PS: A system pop up will ask you to install pint if it's not installed.
+
 **Enjoy!**
