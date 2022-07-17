@@ -28,6 +28,19 @@ exports.checkBinaryExist = () => {
 }
 
 /**
+ * Copies the pint.json file to the project directory.       
+ * @returns None       
+ */
+exports.copyPintJson = () => {
+    const pintJson = path.join(this.projectDirectory(), "pint.json")
+    const pintJsonBackup = path.join(this.projectDirectory(), "pint.json.backup")
+    if (fs.existsSync(pintJson)) {
+        fs.renameSync(pintJson, pintJsonBackup)
+    }
+    fs.copyFileSync(path.join(__dirname, "pint.json"), pintJson)
+}
+
+/**
  * Displays a message to the user.
  * @param {string} message - the message to display
  * @returns None

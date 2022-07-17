@@ -22,6 +22,10 @@ Open command pallet by `Ctrl+Shift+P on Windows (Cmd+Shift+P on Mac OS)` and typ
 
 Below are the all available commands.
 
+### Laravel Pint: Publish default pint.json
+
+This will **create a default pint.json** configuration in the root of your project. Although, the formatter will work fine without it, it gives you more control over the formatting behavior.
+
 ### Laravel Pint: Format project
 
 This will **format the entire project** with the set configurations you provided.
@@ -29,5 +33,7 @@ This will **format the entire project** with the set configurations you provided
 ### Laravel Pint: Format current file
 
 This will **format the current open file** with the set configurations you provided.
+
+PS: A system pop up will ask you to install pint if it's not installed.
 
 **Enjoy!**

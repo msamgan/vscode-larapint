@@ -9,7 +9,8 @@
         "vscode": "^1.68.0"
     },
     "categories": [
-        "Other"
+        "Linters",
+        "Formatters"
     ],
     "keywords": [
         "php",
@@ -33,7 +34,8 @@
     },
     "activationEvents": [
         "onCommand:laravel-pint-vscode.format",
-        "onCommand:laravel-pint-vscode.format-file"
+        "onCommand:laravel-pint-vscode.format-file",
+        "onCommand:laravel-pint-vscode.publish-config"
     ],
     "main": "./extension.js",
     "contributes": {
@@ -45,6 +47,10 @@
             {
                 "command": "laravel-pint-vscode.format-file",
                 "title": "Laravel Pint: Format current file"
+            },
+            {
+                "command": "laravel-pint-vscode.publish-config",
+                "title": "Laravel Pint: Publish default pint.json"
             }
         ]
     },
