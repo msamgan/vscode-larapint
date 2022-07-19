@@ -49,6 +49,13 @@
                   }
             ]
         },
+        "keybindings": [
+            {
+                "command": "laravel-pint-vscode.format-file",
+                "key": "ctrl+shift+l",
+                "mac": "cmd+shift+l"
+            }
+        ],
         "commands": [
             {
                 "command": "laravel-pint-vscode.format",
