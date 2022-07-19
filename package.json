@@ -39,6 +39,16 @@
     ],
     "main": "./extension.js",
     "contributes": {
+        "menus": {
+            "editor/context": [
+                {
+                    "when": "resourceLangId == php",
+                    "command": "laravel-pint-vscode.format-file",
+                    "alt": "laravel-pint-vscode.format-file",
+                    "group": "1_modification"
+                  }
+            ]
+        },
         "commands": [
             {
                 "command": "laravel-pint-vscode.format",
