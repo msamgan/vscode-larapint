@@ -16,7 +16,9 @@ or you can also install by searching "pint" in vscode extensions and selecting "
 
 ## Usage
 
-Open command pallet by `Ctrl+Shift+P on Windows (Cmd+Shift+P on Mac OS)` and type `laravel pint`
+Open command pallet by `Ctrl+Shift+P on Windows (Cmd+Shift+P on Mac OS)` and type `laravel pint` to access all the available commands.
+
+**Format current file** option is also available in right-click menu, moreover you can also use `Ctrl+Shift+L on Windows (Cmd+Shift+L on Mac OS)` for formatting the current file.
 
 ## Commands
 
